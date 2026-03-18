@@ -1,0 +1,28 @@
+# TensorRT engines (hardware-specific, must be built on target device)
+*.engine
+
+# ONNX models (too large for git — download instructions in README)
+*.onnx
+
+# Calibration data
+models/val2017/
+models/calibration_images/
+models/calibration.cache
+
+# Test videos
+models/*.mp4
+
+# Output logs (generated at runtime)
+output/
+
+# Compiled shared libraries (rebuild inside container)
+configs/*.so
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
