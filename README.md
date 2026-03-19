@@ -2,7 +2,7 @@
 
 Real-time object detection pipeline running **YOLOv8** on NVIDIA Jetson Orin Nano Super, using **DeepStream SDK** and **TensorRT** for optimized edge inference.
 
-![Pipeline Demo](media/demo.gif)
+![Pipeline Demo](media/demo.jpg)
 
 ## Performance Results
 
